@@ -52,7 +52,7 @@ void loop() {
   }
 
   // Check if we have 3 or more consecutive readings in range
-  if (consecutiveCount >= 12) {
+  if (consecutiveCount >= 100) {
     // Start blinking LED if not already blinking
     if (!ledBlinking) {
       ledBlinking = true;
